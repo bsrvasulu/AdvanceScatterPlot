@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Advance Scatter Plot</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/images/tab_logo.png"/>
+        <!-- Bootstrap Core CSS -->
+        <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body data-ng-app="mainApp" id="YourElementId">
+        <div id="wrapper" class="container-fluid">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#/">Advance Scatter Plot</a>
+                </div>
+                <!-- /.navbar-header -->
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                            <li>
+                                <a href="#/"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+                <!-- /.navbar-static-side -->
+            </nav>
+
+            <div id="page-wrapper">
+                <div id="testid" data-ng-view>
+                </div>
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- angular module -->
+        <script src="/vendor/angular/angular.min.js"></script>
+        <script src="/vendor/angular-route/angular-route.min.js"></script>
+        <script src="/vendor/angular-smart-table/dist/smart-table.js"></script>
+        <script src="/js/papaparse.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <!-- Plotly.js -->
+        <script src="/js/plotly-latest.min.js"></script>
+        <script src="/dist/js/scatterPlot.js"></script>
+
+        <!-- application angular module -->
+        <script src="/app/app.js"></script>
+        <!-- application angular directives -->
+        <script src="/app/common/directives/ccTablePagination.js"></script>
+        <!-- angular services -->
+        <script src="/app/indexModule/indexService.js"></script>
+        <!-- angular controller -->
+        <script src="/app/indexModule/indexCtrl.js"></script>
+    </body>
+
+</html>
