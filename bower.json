@@ -1,5 +1,5 @@
 {
-  "name": "AdvanceScatterPlot",
+  "name": "advancescatterplot",
   "version": "0.0.0",
   "description": "\"AdvanceScatterPlot\"",
   "authors": [
@@ -10,8 +10,6 @@
     "jquery": "^3.1.1",
     "angular": "^1.6.1",
     "angular-route": "^1.6.1",
-    "bootstrap": "^3.3.7",
-    "angular-smart-table": "^2.1.8",
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^3.3.7"
   }
 }
